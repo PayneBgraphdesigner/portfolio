@@ -1,0 +1,76 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+
+/*
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+
+/*
+.josefin-sans-<uniquifier> {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
+main {
+	width:900px;
+	margin:0 auto;
+}
+
+
+
+
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+}
+
+p {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+		"wdth" 100;
+}
+
+
+.outer_wrapper {
+	display: flex;
+}
+
+.inner {
+	width:50%; 
+	padding:10px;
+}
+
+.Blue {
+	height: 190px;
+	width:190px;
+    background-color: #2497C8;
+}
+
+.SkyBlue {
+    height: 190px;
+    width: 190px;
+    background-color: #8BCDE5;	
+}
+
+
+
