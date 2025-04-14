@@ -1,9 +1,9 @@
 title: My Portfolio
 name: Payne Beauchamp
 email: PB29@myscc.ca
-baseurl: https://paynebgraphdesigner.github.io/portfolio/
+baseurl: "/portfolio"
 
-collections: 
-design: 
-output: true
-permalink: /designs/:name/
+collections:
+  design:
+    output: true
+    permalink: /:collection/:path/
